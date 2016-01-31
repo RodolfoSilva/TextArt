@@ -6,6 +6,7 @@ import Image
 if __name__ == '__main__':
     logos = [
         ['Python', './arts/python.png', './arts/python.md'],
+        ['Devry', './arts/devry.jpg', './arts/devry.md'],
         ['Bugginho Developer', './arts/buginho.png', './arts/buguinho-develop.md'],
         ['Java', './arts/java.jpg', './arts/java.md'],
     ]
