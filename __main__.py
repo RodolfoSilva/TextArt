@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf8 -*-
 import text_art
-import Image
+from PIL import Image
 
 if __name__ == '__main__':
     logos = [
@@ -9,6 +9,7 @@ if __name__ == '__main__':
         ['Devry', './arts/devry.jpg', './arts/devry.md'],
         ['Bugginho Developer', './arts/buginho.png', './arts/buguinho-develop.md'],
         ['Java', './arts/java.jpg', './arts/java.md'],
+        ['RaulHc', './arts/raulhc.png', './arts/raulhc.md'],
     ]
 
     for logo in logos:
