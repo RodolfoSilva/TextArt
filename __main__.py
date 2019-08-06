@@ -5,6 +5,7 @@ from PIL import Image
 
 if __name__ == '__main__':
     logos = [
+        ['Agilize', './arts/agilize.png', './arts/agilize.md'],
         ['Python', './arts/python.png', './arts/python.md'],
         ['Devry', './arts/devry.jpg', './arts/devry.md'],
         ['Bugginho Developer', './arts/buginho.png', './arts/buguinho-develop.md'],

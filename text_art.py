@@ -3,6 +3,8 @@
 
 
 def avg(values):
+    if (isinstance(values, int)):
+        return values
     return int(sum([value for value in values]) / len(values))
 
 
